@@ -21,48 +21,75 @@
   </head>
 
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./imeges/logo.svg" alt="Logo Vyshyvanka" width="44" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#collection">Out collection</a></li>
-          <li><a href="#order">Customer order</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="tel:380684439426">+380 (68) 443-94-26</a>
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo" href="./index.html">
+          <img
+            class="logo-svg"
+            src="./imeges/logo.svg"
+            alt="Logo Vyshyvanka"
+            width="44"
+          />
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#collection">Out collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#order">Customer order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <a class="phone" href="tel:380684439426">+380 (68) 443-94-26</a>
+        </address>
+        <ul class="soc-list">
+          <li class="soc-item">
+            <a class="soc-link" href="" target="_blank">fb</a>
           </li>
-          <li><a href="" target="_blank">fb</a></li>
-          <li><a href="" target="_blank">ig</a></li>
-          <li><a href="" target="_blank">yt</a></li>
+          <li class="soc-item">
+            <a class="soc-link" href="" target="_blank">ig</a>
+          </li>
+          <li class="soc-item">
+            <a class="soc-link" href="" target="_blank">yt</a>
+          </li>
         </ul>
-      </address>
+      </div>
     </header>
 
     <main>
-      <section>
-        <div>
-          <img src="./imeges/girl.png" alt="girl in gray" width="392" />
-        </div>
-        <div>
-          <h1>
-            Reviving the traditional
-            <span>Ukrainian</span>
-            artistry in every stitch.
-          </h1>
-          <a href="#order"
-            ><button>Order <img src="./imeges/order.png" alt="arrow" /></button
-          ></a>
-        </div>
-        <div>
-          <img src="./imeges/Star 10.png" alt="yellow star" />
-          <p>all embroidery is made by hand</p>
+      <section class="hero">
+        <div class="container hero-container">
+          <img
+            class="hero-img"
+            src="./imeges/girl.png"
+            alt="girl in gray"
+            width="392"
+          />
+
+          <div class="hero-block">
+            <h1 class="hero-title">
+              Reviving the traditional
+              <span class="hero-subtitle">Ukrainian</span>
+              artistry in every stitch.
+            </h1>
+            <a class="hero-link" href="#order">Order</a>
+          </div>
+          <div class="hero-block-star">
+            <img
+              class="hero-star"
+              src="./imeges/Star 10.png"
+              alt="yellow star"
+            />
+            <p class="hero-star-text">all embroidery is made by hand</p>
+          </div>
         </div>
       </section>
       <section>
