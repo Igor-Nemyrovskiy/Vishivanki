@@ -124,7 +124,7 @@
         </div>
       </section>
 
-      <section class="collections">
+      <section class="collections" id="collection">
         <div class="container">
           <h2 id="collection" class="collection-title">Our collection</h2>
           <ul class="collection-list">
@@ -213,43 +213,77 @@
       </section>
 
       <section class="portfolio">
-        <p class="portfolio-title visually-hidden">Portfolio</p>
-        <img
-          class="portfolio-img"
-          src="./imeges/girl in green.jpg"
-          alt="girl in green"
-          width="1282"
-          height="776"
-        />
+        <div class="">
+          <p class="portfolio-title visually-hidden">Portfolio</p>
+          <img
+            class="portfolio-img"
+            src="./imeges/girl in green.jpg"
+            alt="girl in a green embroidered shirt"
+            width="1282"
+            height="776"
+          />
+        </div>
       </section>
 
-      <section>
-        <img src="./imeges/Rectangle.jpg" alt="" width="588" height="521" />
-        <h2 id="order">
-          <span>Your order</span> is our priority: Personalized approach and
-          quality of service
-        </h2>
-        <form>
-          <label>
-            <input
-              type="text"
-              name="user_name"
-              placeholder="Enter your full name"
-            />
-          </label>
-          <label>
-            <input
-              type="email"
-              name="user_email"
-              placeholder="Enter your email"
-            />
-          </label>
-          <label>
-            <textarea name="comment" rows="5" placeholder="Comments"></textarea>
-          </label>
-          <button type="submit">Send</button>
-        </form>
+      <section class="order" id="order">
+        <div class="container order-content">
+          <img
+            class="order-img"
+            src="./imeges/Rectangle.jpg"
+            alt="girl in a green embroidered shirt and a gray vest"
+            width="588"
+            height="521"
+          />
+          <div class="order-block">
+            <h2 class="order-title">
+              <span class="order-subtitle">Your order</span> is our priority:
+              Personalized approach and quality of service
+            </h2>
+            <form class="order-form">
+              <div class="order-field">
+                <label for="user-name" class="order-label visually-hidden">
+                  Full name
+                </label>
+                <input
+                  class="order-input"
+                  type="text"
+                  name="user-name"
+                  placeholder="Enter your full name"
+                  id="user-name"
+                />
+              </div>
+
+              <div class="order-field">
+                <label for="user-email" class="order-label visually-hidden">
+                  Email
+                </label>
+                <input
+                  class="order-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="Enter your email"
+                  id="user-email"
+                />
+              </div>
+
+              <div class="order-field order-comment-field">
+                <label for="user-comment" class="order-label visually-hidden">
+                  Comment
+                </label>
+                <textarea
+                  class="order-input order-textarea"
+                  name="user-comment"
+                  rows="5"
+                  placeholder="Comments"
+                  id="user-comment"
+                ></textarea>
+              </div>
+            </form>
+            <button type="submit" class="order-buttom">Send</button>
+          </div>
+        </div>
       </section>
+
       <section id="testimonials">
         <h2>Testimonials</h2>
         <ul>

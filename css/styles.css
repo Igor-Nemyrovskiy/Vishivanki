@@ -71,16 +71,12 @@ button {
 .logo {
   margin-right: 60px;
 }
-.logo-svg {
-}
-.nav {
-}
+
 .nav-list {
   display: flex;
   gap: 25px;
 }
-.nav-item {
-}
+
 .nav-link {
   display: block;
   padding-top: 17px;
@@ -99,8 +95,7 @@ button {
   margin-left: auto;
   margin-right: 20px;
 }
-.address-list {
-}
+
 .phone {
   display: block;
   border: 1px solid rgba(252, 249, 249, 0.1);
@@ -116,9 +111,6 @@ button {
 .soc-list {
   display: flex;
   gap: 12px;
-}
-
-.soc-item {
 }
 
 .soc-link {
@@ -143,8 +135,7 @@ button {
 /* #region hero */
 .hero {
   margin: 75px 0;
-  /* padding-top: 100px;
-  padding-bottom: 75px; */
+  
 }
 
 .hero-container {
@@ -312,12 +303,112 @@ button {
 /* #endregion */
 
 /* #region portfolio */
-/* .portfolio {
-  padding-block: 150px;
-} */
+.portfolio {
+  width: 100%;
+}
 
 .portfolio-img {
   display: block;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+/* #endregion */
+
+/* #region order */
+.order {
+  padding-block: 150px;
+}
+
+.order-content {
+  display: flex;
+  gap: 50px;
+}
+
+.order-img {
+  display: block;
+  width: 588px;
+  height: 521px;
+}
+
+.order-block {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.order-title {
+font-weight: 500;
+font-size: 44px;
+line-height: 1.32;
+letter-spacing: -0.03em;
+color: #FCF9F9;
+}
+
+.order-subtitle {
+  color: #ECD979;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-field {
+  
+} 
+
+.order-label {
+}
+
+.order-input {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 508px;
+  height: 50px;
+  background-color: transparent; 
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #FCF9F9;
+}
+
+.order-input::placeholder {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+}
+
+.order-input:hover,
+.order-input:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+
+.order-comment-field {
+}
+
+.order-textarea {
+  height: 196px;
+  resize: none;
+}
+
+.order-buttom {
+  display: block;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 39px;
+  width: 168px;
+  height: 50px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #FCF9F9;
+}
+
+.order-buttom:hover,
+.order-buttom:focus {
+  border-color: #ECD979;
 }
 /* #endregion */
