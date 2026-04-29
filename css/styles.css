@@ -233,6 +233,7 @@ button {
   display: flex;
   flex-direction: column;
   height: 100%;
+  z-index: 2;
 }
 
 .menu-content {
@@ -278,6 +279,7 @@ button {
 .menu-nav {
   margin-top: auto;
   margin-bottom: auto;
+  z-index: 2;
 }
 
 .menu-list {
@@ -302,5 +304,6 @@ button {
   transform: translateX(-41%);
   width: 340px;
   max-width: none;
+  z-index: 1;
 }
 /* #endregion */
