@@ -268,9 +268,6 @@ button {
   border-color: #fcf9f9;
 }
 
-.menu-phone {
-}
-
 .mob-close-button {
   width: 36px;
   height: 36px;
@@ -312,12 +309,9 @@ button {
   gap: 20px;
 }
 
-.menu-item {
-}
-
 .menu-link {
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   text-transform: uppercase;
   color: #1c2225;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -339,6 +333,10 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .mob-menu {
+    max-width: 380px;
+  }
+
   .menu-container {
     padding: 20px 32px;
   }
@@ -347,6 +345,32 @@ button {
     padding: 14px 28px;
     width: 193px;
     height: 48px;
+  }
+
+  .menu-address-link {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  .mob-close-button {
+    width: 44px;
+    height: 44px;
+  }
+
+  .mob-close-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .menu-list {
+    gap: 25px;
+  }
+
+  .menu-decor {
+    bottom: -120px;
+    left: 40%;
+    width: 545px;
+    height: 484px;
   }
 }
 /* #endregion */
